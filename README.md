@@ -21,14 +21,14 @@ Wireframes: A website wireframe, often called a screen blueprint, is a graphic 
 Responsive Web design: The goal of responsive web design is to create web pages that look great on any device. A responsive web design adjusts to changing screen sizes and viewports automatically. The use of HTML and CSS to automatically resize, conceal, reduce, or enlarge a website to make it seem excellent on all devices is known as responsive web design.
 
 #### Tablet View
-![ss1](/ss1.JPG)
+![ss1](/screenshot1.JPG)
 
 #### Mobile View
-![ss2](/ss2.JPG)
+![ss2](/screenshot2.JPG)
 
 ### Do showcase different tools[Adobe Photoshop/ Illustrator] expertise by mentioning it.
 Adobe Photoshop: Adobe Photoshop is a great tool for creating and editing graphics for Windows and macOS developed and marketed by Adobe Inc.
-With the help of Adobe Photoshop, the wireframes has been designed. One more design work created in photoshop has been published below: ![](design.jpg)
+With the help of Adobe Photoshop, the wireframes has been designed. One more design work created in photoshop has been published below: ![](design.jpeg)
 
 ### Do showcase knowledge about HTML, CSS, JavaScript, Php and SQL by making one demo website.
 HTML, or HyperText Markup Language, is the standardized markup language for texts that are intended to be viewed on a web browser. Technologies such as Cascading Style Sheets (CSS) and programming languages like JavaScript helps in making design and providing functionality to the HTML respectively.
