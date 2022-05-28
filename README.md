@@ -1,4 +1,6 @@
 # LION DEN
+Name=Gurpreet Singh
+Student id =635259901
 
 ### Do showcase your skills with a minimum of three different wireframes for different domains.
 
