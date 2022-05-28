@@ -1,0 +1,399 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap");
+
+body {
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    max-width: 1140px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+    text-decoration: none;
+    color: #222;
+}
+ul {
+    list-style-type: none;
+}
+.brand img {
+    width: 9vw;
+}
+
+.site-header {
+    position: relative;
+    background-color: #fff;
+}
+
+.site-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.site-end i:hover {
+    color: #e63946;
+}
+
+@media (min-width: 660px) {
+    .site-wrapper {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+@media (max-width: 659px) {
+    .site-end {
+        padding-right: 4rem;
+    }
+}
+
+@media (min-width: 660px) {
+    .n-wrapper {
+        display: flex;
+        list-style-type: none;
+    }
+}
+
+@media (max-width: 659px) {
+    .n-wrapper {
+        position: absolute;
+        top: 100%;
+        list-style-type: none;
+        right: 0;
+        left: 0;
+        background-color: #d9f0f7;
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(-100%);
+        transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+        z-index: 1;
+    }
+    .n-wrapper.active {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.n-item a {
+    display: block;
+    padding: 1.5rem 1rem;
+    font-weight: 600;
+}
+
+.n-item a:hover {
+    color: #e63946;
+}
+
+.n-toggle {
+    display: none;
+}
+@media (max-width: 659px) {
+    .n-toggle {
+        display: block;
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+    }
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.section {
+    height: 80vh;
+    background-size: cover;
+    background-position: top;
+    background-color: #5d819b;
+    background-image: url(../Images/pic.jpg);
+}
+
+.header {
+    display: flex;
+}
+
+.heading {
+    font-size: 40px;
+    color: white;
+    padding-top: 20%;
+    padding-left: 15%;
+    text-transform: uppercase;
+    flex: 40%;
+}
+
+.heading h1 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.heading span {
+    display: block;
+    font-size: 25px;
+    color: rgb(170, 170, 170);
+}
+
+h2 {
+    text-align: center;
+    letter-spacing: 0.8rem;
+    font-weight: 300;
+    margin: 30px auto;
+}
+
+h2 strong {
+    font-weight: 700;
+}
+
+.contact {
+    background-image: url(../Images/contact2.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.contact img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 20px;
+    width: 40vw;
+}
+
+.contact hr {
+    width: 75%;
+    margin: 20px auto;
+}
+
+.contact h2 {
+    margin-block-start: 0;
+    padding-top: 30px;
+}
+
+.contact .form {
+    padding: 2rem 4rem;
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+.contact .box {
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    position: relative;
+}
+
+.contact .form h6 {
+    font-size: 0.9rem;
+    margin-block-start: 0;
+    margin-block-end: 2px;
+}
+.contact .form h3 {
+    font-size: 2rem;
+    margin-block-start: 0;
+}
+.contact .form h3 span {
+    color: darkred;
+}
+
+.contact .box input {
+    border: 0.2rem solid #f0f0f0;
+    display: block;
+    border-radius: 0.4rem;
+    width: 60%;
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+.contact .box small {
+    font-size: 1.2rem;
+}
+
+.contact .form button {
+    cursor: pointer;
+    background-color: #3498db;
+    border: 0.2rem solid #3498db;
+    border-radius: 0.4rem;
+    color: white;
+    display: block;
+    font-size: 1.4rem;
+    padding: 0.5rem;
+    margin-top: 2rem;
+    width: 40%;
+}
+
+.contact .one {
+    padding: 2rem 4rem;
+    text-align: center;
+}
+
+.contact .one ol {
+    list-style-type: none;
+}
+
+.contact .one li {
+    line-height: 5rem;
+    font-size: 1.5rem;
+}
+
+.contact .one li a {
+    text-decoration: none;
+    color: white;
+}
+
+.two {
+    width: 60%;
+    margin: 4rem auto;
+}
+
+.exp .cards {
+    width: 39%;
+    border: 0.2rem solid #f0f0f0;
+    margin: 1rem 2.7rem;
+    display: inline-block;
+    background-color: #000;
+}
+
+.exp .cards img {
+    width: 100%;
+    height: 300px;
+}
+
+.exp .cards .text {
+    padding: 1rem 2rem;
+}
+
+.exp .float {
+    width: 100%;
+}
+
+.exp .three {
+    width: 60%;
+    margin: 10px auto 4rem auto;
+}
+
+.bgimg {
+    background-image: url(../Images/pic2.jpg);
+    background-size: cover;
+}
+
+.bgimg h2 {
+    margin-block-start: 0;
+    padding-top: 30px;
+}
+
+.edu .cards {
+    width: 39%;
+    border: 0.2rem solid #f0f0f0;
+    margin: 1rem 2.7rem;
+    display: inline-block;
+    background-color: #777;
+}
+
+.edu .cards .text {
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+.edu .float {
+    width: 100%;
+}
+
+.edu .three {
+    width: 60%;
+    margin: 10px auto 4rem auto;
+}
+
+.edu .cards button {
+    cursor: pointer;
+    background-color: #4caf50;
+    border: 0.2rem solid #4caf50;
+    border-radius: 0.4rem;
+    color: white;
+    display: block;
+    font-size: 1.4rem;
+    padding: 0.5rem;
+    margin: 10px auto;
+    width: 40%;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.row .col {
+    flex: 50%;
+}
+iframe {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.heading2 .text {
+    padding-top: 20%;
+    padding-left: 20%;
+    text-align: left;
+    font-size: 1rem;
+    letter-spacing: 0.4rem;
+}
+.heading2 h2 {
+    text-align: left;
+    font-size: 2.8rem;
+}
+.heading2 p {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+.heading2 ul {
+    list-style-type: none;
+}
+
+.hhero .heading2 {
+    background-image: url(../Images/hero3.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+}
+
+table,
+td,
+th {
+    border: 1px solid #4caf50;
+    margin: auto;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 1rem;
+}
+
+td a {
+    text-decoration: none;
+    color: inherit;
+}
+
+table {
+    margin-bottom: 2rem;
+    width: 60%;
+}
+
+.point .cards {
+    cursor: pointer;
+}
+
+/*
+color scheme: black,grey,green,darkred,blue
+page layout: ice
+face font: Raleway
+weight: 300;400;500;600;700
+heading size: 40px
+subhaeding size: 25px
+
+
+*/
