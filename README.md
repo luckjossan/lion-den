@@ -46,3 +46,4 @@ My soft skills are:
 - Management skills
 - Authenticity
 - Networking
+[Link to my resume](https://github.com/luckjossan/lion-den/blob/main/Soft%20skills%20resume.pdf)
